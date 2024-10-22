@@ -1,8 +1,8 @@
 .page-header {
-    background-color: #C25100;
+    background-color: purple;
     margin-top: 0;
     margin-bottom: 40px;
-    padding: 20px 20px 20px 40px;
+    padding: 5px 5px 5px 5px;
 }
 
 .page-header h1,
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'DM Sans'
 }
 
 .date {
@@ -50,6 +50,11 @@ h4 {
 .post h2 a,
 .post h2 a:visited {
     color: #000000;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
 }
 
 .post > .date,
@@ -59,12 +64,12 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #C25100;
+    color: purple;
     background: none;
-    border-color: #C25100;
+    border-color: purple;
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: purple;
 }
